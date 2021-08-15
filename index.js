@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const connection = require('./database/database');
 
+const categoriesController = require('./categories/categories-controller');
+const articlesController = require('./articles/articles-controller.js');
+
 app.set('view engine', 'ejs');
 
 app.use(express.urlencoded({extended:false}));
@@ -15,8 +18,11 @@ connection
         console.log(error);
     })
 
+app.use('/', categoriesController);
+app.use('/', articlesController);
+
 app.get('/', (req,res)=>{
-    res.render('index');
+    res.render('index-view');
 })
 
 app.listen(8080, ()=>{
