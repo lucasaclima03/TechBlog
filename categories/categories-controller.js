@@ -4,7 +4,7 @@ const Category = require('./Category');
 const slugify = require('slugify');
 
 router.get('/admin/categories/new', (req,res)=>{
-    res.render('admin/categories/new');
+    res.render('admin/categories/new-categorie');
 });
 
 router.post('/categories/save', (req,res)=>{
@@ -17,7 +17,7 @@ router.post('/categories/save', (req,res)=>{
             res.redirect('/admin/categories')
         })
     }else{
-        res.redirect('admin/categories/new');
+        res.redirect('admin/categories/new-categorie');
     }
 });
 
