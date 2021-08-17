@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 //sessions
 app.use(session({
     secret: "segredo",
-    cookie: {maxAge: 30000 },
+    cookie: {maxAge: 36000 },
     proxy: true,
     resave: true,
     saveUninitialized: true
@@ -31,7 +31,7 @@ app.use(express.json());
 connection
     .authenticate()
     .then(()=>{
-        console.log('Conexão feita com sucesso!');
+        console.log('Conexão com o banco de dados feita com sucesso!');
     }).catch((error)=>{
         console.log(error);
     })
@@ -96,5 +96,5 @@ app.get('/category/:slug', (req, res)=>{
 })
 
 app.listen(8080, ()=>{
-    console.log('o servidor está rodando');
+    console.log('o servidor está rodando na porta 8080');
 })

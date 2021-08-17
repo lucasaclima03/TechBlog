@@ -20,5 +20,6 @@ Category.hasMany(Article);
 Article.belongsTo(Category);
 
 //Article.sync({force: true});
+//Category.sync({force:true});
 
 module.exports = Article;
