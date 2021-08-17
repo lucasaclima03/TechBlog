@@ -10,6 +10,8 @@ Com o blog você poderá:
 * Editar seus artigos
 * Deletar um arquivo
 
+![Caption](https://github.com/lucasaclima03/TechBlog/blob/main/TechBlog.gif)
+
 
 ### Tecnologias utilizadas:  
 * NodeJs com Express
