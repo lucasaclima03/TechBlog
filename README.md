@@ -32,7 +32,7 @@ Com o blog você poderá:
 
 4 - Rode no terminal o comando `npm install` que instalará automaticamente todas as dependências necessárias para rodar a API e depois rode o comando `npm start` para iniciar o servidor.  
 
-5 - Utilize o site normalmente 
+5 - Utilize o site normalmente na porta `8080` 
 
 6 - Para criar, editar, deletar novas categorias e novos artigos, cadastre um usuário na rota:
 
