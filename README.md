@@ -26,15 +26,19 @@ Com o blog você poderá:
   
 1 - Primeiramente faça o clone deste repositório para a sua máquina  
 
-2 - Rode no terminal o comando `npm install` que instalará automaticamente todas as dependências necessárias para rodar a API e depois rode o comando `npm start` para iniciar o servidor.  
+2 - Crie o banco de dados chamado `blog.sql `
 
-3 - Utilize o site normalmente 
+3 - Vá até a pasta Database, altere o arquivo `example-database.js` para `database.js` e inclua os seus dados onde é requerido  
 
-4 - Para criar, editar, deletar novas categorias e novos artigos, cadastre um usuário na rota:
+4 - Rode no terminal o comando `npm install` que instalará automaticamente todas as dependências necessárias para rodar a API e depois rode o comando `npm start` para iniciar o servidor.  
+
+5 - Utilize o site normalmente 
+
+6 - Para criar, editar, deletar novas categorias e novos artigos, cadastre um usuário na rota:
 
 > YOUR-HOST:8080/admin/users/create  
 
-5 - Agora você poderá efetuar login na área administrativa e fazer as operações que desejar.
+7 - Agora você poderá efetuar login na área administrativa e fazer as operações que desejar.
 
 
 ### Links
