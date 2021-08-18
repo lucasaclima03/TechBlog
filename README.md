@@ -15,6 +15,7 @@ Com o blog você poderá:
 
 ### Tecnologias utilizadas:  
 * NodeJs com Express
+* Sequelize
 * HTML5
 * CSS com Bootstrap
 * Bcrypt
